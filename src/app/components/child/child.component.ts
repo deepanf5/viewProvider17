@@ -11,7 +11,7 @@ import { ContentComponent } from '../content/content.component';
       child works!
     </p>
     <p>child Data : {{dataService.getData()}}</p>
-    <app-content></app-content>
+    <ng-content></ng-content>
   `,
   styleUrl: './child.component.css'
 })
